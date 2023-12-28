@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import useWindowDimensions from "../hooks/useWindowDimensions";
 import { Link } from "react-router-dom";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 // import { useNavigate } from "react-router-dom";
 const Navbar = () => {
   // const navigate=useNavigate()
   const [display, setDisplay] = useState(false);
   const { height, width } = useWindowDimensions();
   //   console.log(height, width);
-  console.log(display);
+  // console.log(display);
 
   return (
     <div className="navbar">
@@ -23,9 +24,12 @@ const Navbar = () => {
               <Link to="/gallery">
                 <li>Gallery</li>
               </Link>
-              <Link to="why-us">
+              {/* <Link to="#about">
                 <li>Why us?</li>
-              </Link>
+              </Link> */}
+              <AnchorLink href="#about">
+                <li>Why us?</li>
+              </AnchorLink>
               <Link to="book">
                 <li>Book</li>
               </Link>

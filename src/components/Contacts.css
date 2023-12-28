@@ -1,0 +1,11 @@
+.contacts {
+  padding: 10px;
+  text-align: center;
+}
+.contacts .icon {
+  padding: 30px;
+}
+.contacts a {
+  text-decoration: none;
+  color: grey;
+}

@@ -1,0 +1,26 @@
+.footer {
+  /* border: 1px solid red; */
+
+  background-color: black;
+  padding: 30px;
+  color: white;
+}
+.footer-upper {
+  display: flex;
+  justify-content: center;
+}
+.footer-upper a {
+  margin: 0px 10px;
+}
+.footer-lower {
+  text-align: center;
+}
+.top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 50%;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.crsl h1,
+.crsl h3 {
+  text-align: center;
+}
+
+.card img {
+  width: 80%;
+  height: 60vh;
+  border-radius: 10px;
+}
+.card div {
+  display: flex;
+  justify-content: center;
+}

@@ -7,6 +7,7 @@ import WhyUs from "./Pages/WhyUs";
 import Book from "./Pages/Book";
 import DropSite from "./Pages/DropSite";
 import ContactUs from "./Pages/ContactUs";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route exact path="/drop-site" element={<DropSite />} />
         <Route exact path="/contact-us" element={<ContactUs />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

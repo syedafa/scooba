@@ -1,0 +1,15 @@
+.svg {
+  text-align: center;
+}
+
+.content h4 {
+  text-align: center;
+  color: #11b89b;
+  margin: 10px;
+  font-size: 22px;
+}
+.content p {
+  text-align: center;
+  color: grey;
+  font-size: 12px;
+}

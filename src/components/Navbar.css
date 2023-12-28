@@ -5,6 +5,10 @@
   justify-content: space-between;
   background-color: gray;
   color: white;
+  position: fixed;
+  /* top: 0; */
+  width: 100%;
+  z-index: 999;
 }
 .navbar:hover {
   cursor: pointer;
